@@ -1,0 +1,45 @@
+
+ SERIAL 16 
+Operation, Average Time (s)
+checkSym, 0.000000
+matTranspose, 0.000001
+
+ SERIAL 32 
+Operation, Average Time (s)
+checkSym, 0.000002
+matTranspose, 0.000002
+
+ SERIAL 64 
+Operation, Average Time (s)
+checkSym, 0.000006
+matTranspose, 0.000010
+
+ SERIAL 128 
+Operation, Average Time (s)
+checkSym, 0.000024
+matTranspose, 0.000042
+
+ SERIAL 256 
+Operation, Average Time (s)
+checkSym, 0.000100
+matTranspose, 0.000361
+
+ SERIAL 512 
+Operation, Average Time (s)
+checkSym, 0.000494
+matTranspose, 0.002750
+
+ SERIAL 1024 
+Operation, Average Time (s)
+checkSym, 0.002956
+matTranspose, 0.017567
+
+ SERIAL 2048 
+Operation, Average Time (s)
+checkSym, 0.012842
+matTranspose, 0.068775
+
+ SERIAL 4096 
+Operation, Average Time (s)
+checkSym, 0.137368
+matTranspose, 0.449684

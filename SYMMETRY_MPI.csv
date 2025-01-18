@@ -1,0 +1,159 @@
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+16,1,0.000001,0.000001,0.529412,52.94,2.5265
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+32,1,0.000003,0.000003,0.474453,47.45,2.5080
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+64,1,0.000012,0.000012,0.482558,48.26,2.6635
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+128,1,0.000050,0.000050,0.472876,47.29,2.6393
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+256,1,0.000184,0.000184,0.489955,49.00,2.8503
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+512,1,0.001228,0.001228,0.400435,40.04,1.7082
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+1024,1,0.005930,0.005930,0.485183,48.52,1.4145
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+2048,1,0.028629,0.028629,0.469395,46.94,1.1720
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+4096,1,0.294243,0.294243,0.483749,48.37,0.4561
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+16,2,0.000000,0.000000,1.117647,55.88,5.0529
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+32,2,0.000002,0.000002,0.955882,47.79,5.0529
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+64,2,0.000006,0.000006,1.004016,50.20,5.5196
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+128,2,0.000025,0.000025,1.010567,50.53,5.2810
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+256,2,0.000098,0.000098,0.986338,49.32,5.3648
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+512,2,0.000593,0.000593,0.802725,40.14,3.5355
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+1024,2,0.002993,0.002993,0.972155,48.61,2.8024
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+2048,2,0.014533,0.014533,0.898846,44.94,2.3089
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+4096,2,0.128560,0.128560,1.769448,88.47,1.0440
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+16,4,0.000000,0.000000,1.545455,38.64,7.8090
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+32,4,0.000001,0.000001,2.030303,50.76,10.4120
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+64,4,0.000003,0.000003,2.161290,54.03,11.0838
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+128,4,0.000013,0.000013,1.919325,47.98,10.3144
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+256,4,0.000045,0.000045,2.129338,53.23,11.5616
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+512,4,0.000306,0.000306,1.632550,40.81,6.8463
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+1024,4,0.001610,0.001610,1.949294,48.73,5.2089
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+2048,4,0.007408,0.007408,1.768425,44.21,4.5298
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+4096,4,0.053188,0.053188,2.453503,61.34,2.5234
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+16,8,0.000000,0.000000,3.600000,45.00,17.1799
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+32,8,0.000000,0.000000,3.882353,48.53,20.2116
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+64,8,0.000002,0.000002,3.968254,49.60,21.8157
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+128,8,0.000007,0.000007,3.548611,44.36,19.0887
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+256,8,0.000025,0.000025,3.956855,49.46,21.0836
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+512,8,0.000154,0.000154,3.241230,40.52,13.5931
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+1024,8,0.000743,0.000743,3.950066,49.38,11.2839
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+2048,8,0.003728,0.003728,3.534778,44.18,8.9998
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+4096,8,0.025836,0.025836,4.960101,62.00,5.1949
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+16,16,0.000000,0.000000,4.500000,28.12,21.4748
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+32,16,0.000000,0.000000,6.600000,41.25,34.3597
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+64,16,0.000001,0.000001,7.812500,48.83,42.9497
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+128,16,0.000003,0.000003,7.619403,47.62,41.0266
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+256,16,0.000012,0.000012,7.879541,49.25,42.0463
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+512,16,0.000082,0.000082,6.326340,39.54,25.6296
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+1024,16,0.000395,0.000395,7.759016,48.49,21.2556
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+2048,16,0.001931,0.001931,7.087289,44.30,17.3784
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+4096,16,0.012026,0.012026,12.200691,76.25,11.1604
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+32,32,0.000000,0.000000,11.333333,35.42,57.2662
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+64,32,0.000000,0.000000,14.764706,46.14,80.8464
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+128,32,0.000002,0.000002,15.652174,48.91,79.6748
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+256,32,0.000006,0.000006,16.444867,51.39,83.6131
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+512,32,0.000039,0.000039,12.955242,40.49,53.9307
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+1024,32,0.000189,0.000189,15.456585,48.30,44.3407
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+2048,32,0.000968,0.000968,18.602010,58.13,34.6653
+
+ N, Processors,sym_avg_computation_time,sym_weak_scaling_MPI,sym_speedup_MPI,sym_efficiency_MPI,sym_bandwidth 
+4096,32,0.005912,0.005912,26.089078,81.53,22.7031

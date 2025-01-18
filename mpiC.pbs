@@ -1,0 +1,105 @@
+#!/bin/bash
+
+# Job name
+#PBS -N MPI_matrix
+
+# Output files
+#PBS -o ./MPI_matrix.o
+#PBS -e ./MPI_matrix.e
+
+# Queue name
+#PBS -q short_cpuQ
+
+# Set the maximum wall time
+#PBS -l walltime=0:15:00
+
+# Number of nodes, cpus, mpi processors and amount of memory
+#PBS -l select=1:ncpus=16:mem=1000mb
+
+# Modules for python and MPI
+module load gcc91
+module load mpich-3.2.1--gcc-9.1.0
+
+gcc() {
+    gcc-9.1.0 "$@"
+}
+gcc --version
+
+
+# Print the name of the file that contains the list of the nodes assigned to the job and list all the nodes
+NODES=$(cat $PBS_NODEFILE)
+echo The running nodes are $NODES
+
+# Get the list of unique nodes assigned to the job
+NODES=$(sort -u $PBS_NODEFILE)
+echo The running nodes are $NODES
+
+# Loop through each node and get architecture information
+for NODE in $NODES; do
+    echo "Node: $NODE"
+    ssh $NODE "lscpu"
+done
+
+# Select the working directory 
+cd /home/dennis.alberti/MatrixTranspositionMPI/
+
+# the code should be previously compiled
+mpicc MPI_matrix.c -fopenmp -o MPI_matrix
+
+# Run the code
+mpirun -np 1 ./MPI_matrix 16
+mpirun -np 1 ./MPI_matrix 32
+mpirun -np 1 ./MPI_matrix 64
+mpirun -np 1 ./MPI_matrix 128
+mpirun -np 1 ./MPI_matrix 256
+mpirun -np 1 ./MPI_matrix 512
+mpirun -np 1 ./MPI_matrix 1024
+mpirun -np 1 ./MPI_matrix 2048
+mpirun -np 1 ./MPI_matrix 4096
+mpirun -np 2 ./MPI_matrix 16
+mpirun -np 2 ./MPI_matrix 32
+mpirun -np 2 ./MPI_matrix 64
+mpirun -np 2 ./MPI_matrix 128
+mpirun -np 2 ./MPI_matrix 256
+mpirun -np 2 ./MPI_matrix 512
+mpirun -np 2 ./MPI_matrix 1024
+mpirun -np 2 ./MPI_matrix 2048
+mpirun -np 2 ./MPI_matrix 4096
+mpirun -np 4 ./MPI_matrix 16
+mpirun -np 4 ./MPI_matrix 32
+mpirun -np 4 ./MPI_matrix 64
+mpirun -np 4 ./MPI_matrix 128
+mpirun -np 4 ./MPI_matrix 256
+mpirun -np 4 ./MPI_matrix 512
+mpirun -np 4 ./MPI_matrix 1024
+mpirun -np 4 ./MPI_matrix 2048
+mpirun -np 4 ./MPI_matrix 4096
+mpirun -np 8 ./MPI_matrix 16
+mpirun -np 8 ./MPI_matrix 32
+mpirun -np 8 ./MPI_matrix 64
+mpirun -np 8 ./MPI_matrix 128
+mpirun -np 8 ./MPI_matrix 256
+mpirun -np 8 ./MPI_matrix 512
+mpirun -np 8 ./MPI_matrix 1024
+mpirun -np 8 ./MPI_matrix 2048
+mpirun -np 8 ./MPI_matrix 4096
+mpirun -np 16 ./MPI_matrix 16
+mpirun -np 16 ./MPI_matrix 32
+mpirun -np 16 ./MPI_matrix 64
+mpirun -np 16 ./MPI_matrix 128
+mpirun -np 16 ./MPI_matrix 256
+mpirun -np 16 ./MPI_matrix 512
+mpirun -np 16 ./MPI_matrix 1024
+mpirun -np 16 ./MPI_matrix 2048
+mpirun -np 16 ./MPI_matrix 4096
+mpirun -np 32 ./MPI_matrix 16
+mpirun -np 32 ./MPI_matrix 32
+mpirun -np 32 ./MPI_matrix 64
+mpirun -np 32 ./MPI_matrix 128
+mpirun -np 32 ./MPI_matrix 256
+mpirun -np 32 ./MPI_matrix 512
+mpirun -np 32 ./MPI_matrix 1024
+mpirun -np 32 ./MPI_matrix 2048
+mpirun -np 32 ./MPI_matrix 4096
+# If you set the number of mpi processors, here it is enough to type
+# mpirun ./code.out
