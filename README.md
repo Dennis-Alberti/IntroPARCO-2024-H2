@@ -19,14 +19,23 @@ Compiler: GCC 13.2.0, G++ 13.2.0 (MinGW Compiler), GCC 9.1.0 on the cluster with
 All my training runs was done on an interractive section due to impossibility of compiling in my own system:
 
 qsub -q short_cpuQ -I -l select=1:ncpus=16:mpiprocs=16:mem=1000mb
+
 module load mpich-3.2.1--gcc-9.1.0
 
 Libraries: 
+
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <sys/time.h>
+
 #include <unistd.h>
+
 #include <omp.h>
+
 #include <stdbool.h>
+
 #include <mpi.h>
